@@ -4,8 +4,10 @@ import express from 'express';
 const server = express();
 
 
+
 server.get('/', (req, res) => {
-    return res.send('olá dev')
+
+  return res.send('ola DEV');
 });
 
-export {server};
+export { server };
